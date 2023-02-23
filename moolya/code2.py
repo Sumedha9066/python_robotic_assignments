@@ -1,0 +1,26 @@
+list=[16,"sumedha",70,True]
+print(list[0])
+print(list[3])
+ #   0  1    2         3       4
+s=[15,50,"sumedha","sumedhap",90,"sumedha","sumedha"]
+print(s[-1])
+print(s[3:4:1])
+print(type(s))
+#append
+s.append(500)
+print(s)
+s.insert(10,"moolya")
+print(s)
+s.remove("sumedha")
+print(s)
+s1=["sumedha","sudhakar","amit","moolya","education"]
+s1.sort()
+print(s1)
+s2=[89,67,56,99,100,3,67,34,12,1]
+s2.sort()
+print(s2)
+s2.reverse()
+print(s2)
+s2.clear()
+print(s2)
+print(s.count("sumedha"))
